@@ -1,0 +1,1 @@
+##Code for resizingimport cv2img=cv2.imread("Resources/pic1.jpg")Resized=cv2.resize(img,(180,190))cv2.imshow("Normal",img)cv2.imshow("Resized",Resized)cv2.waitkey(0)
